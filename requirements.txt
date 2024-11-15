@@ -4,6 +4,16 @@ sentence-transformers>=2.2.2
 torch>=2.0.0
 transformers>=4.34.0
 llama-index-core>=0.10.0
+llama-index-embeddings-openai>=0.2.5
+llama-index-llms-openai>=0.2.5
+python-dotenv
+numpy
+pandasstreamlit>=1.31.0
+streamlit-chat
+sentence-transformers>=2.2.2
+torch>=2.0.0
+transformers>=4.34.0
+llama-index-core>=0.10.0
 pyngrok
 python-dotenv
 numpy
