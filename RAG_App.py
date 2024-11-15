@@ -3,16 +3,20 @@ from streamlit_chat import message
 import torch
 import re
 from sentence_transformers import SentenceTransformer
-from llama_index.core import VectorStoreIndex, StorageContext, load_index_from_storage
+from llama_index.core import VectorStoreIndex, StorageContext, load_index_from_storage, Settings
 from llama_index.core.query_engine import RetrieverQueryEngine
 from llama_index.core.prompts import PromptTemplate
 from llama_index.core.response_synthesizers import get_response_synthesizer
+from llama_index.embeddings.openai import OpenAIEmbedding
 import os
 from datetime import datetime
 from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
+
+# Add this line after loading environment variables
+Settings.embed_model = OpenAIEmbedding()
 
 # Set page title and favicon
 st.set_page_config(page_title="UChicago ADS Chatbot", page_icon="🎓")
