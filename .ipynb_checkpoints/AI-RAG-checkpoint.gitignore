@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+.env
+.venv
+env/
+venv/
+.idea/
+.vscode/
+.streamlit/secrets.toml
+secrets.toml
+chroma_db/
+saved_index/.ipynb_checkpoints/default__vector_store-checkpoint.json
