@@ -1,4 +1,4 @@
-# Environment variables
+# Environment variables - IMPORTANT: this prevents .env from being committed
 .env
 .env.*
 !.env.example
@@ -7,15 +7,39 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual Environment
 venv/
 ENV/
 env/
+.venv/
+.ENV/
+env.bak/
+venv.bak/
 
 # IDE specific files
 .idea/
 .vscode/
+*.swp
+*.swo
+*~
 
 # Operating System
 .DS_Store
@@ -25,18 +49,47 @@ Thumbs.db
 saved_index/
 .cache/
 *.log
+logs/
+tmp/
+temp/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb__pycache__
-*.pyc
-.env
-.venv
-env/
-venv/
-.idea/
-.vscode/
-.streamlit/secrets.toml
-secrets.toml
-chroma_db/
-saved_index/.ipynb_checkpoints/default__vector_store-checkpoint.json
+*.ipynb
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/
+
+# Model files
+*.pth
+*.pt
+*.bin
+*.model
+*.pkl
+
+# Large files
+*.csv
+*.json
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
