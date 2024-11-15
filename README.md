@@ -34,27 +34,11 @@ This project implements a Retrieval-Augmented Generation (RAG) system for the Ma
 - Maintained high relevance scores (0.99) while reducing hallucination
 - Average response time under 1.5 seconds for most queries
 
-## Installation and Usage
-
-(Add instructions for setting up and running the project)
-
-## Contributing
-
-(Add guidelines for contributing to the project)
-
 ## Future Directions
 
 - [ ] Implement multilingual support
 - [ ] Develop feedback loops for continuous improvement
 - [ ] Enhance deep content understanding for complex queries
-
-## License
-
-(Add license information)
-
-## Contact
-
-(Add contact information or links to project maintainers)
 
 ---
 
