@@ -1,5 +1,8 @@
 # University of Chicago MS in Applied Data Science RAG System Chatbot
 
+## Chatbot Link
+https://uchicago-ads-chatbot-team-1.streamlit.app/
+
 ## Project Overview
 
 This project implements a Retrieval-Augmented Generation (RAG) system for the Master's in Applied Data Science program at the University of Chicago. The system provides accurate and contextually relevant answers to user queries about the program, combining efficient information retrieval with advanced natural language generation capabilities.
