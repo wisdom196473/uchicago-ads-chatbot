@@ -1,7 +1,7 @@
 # University of Chicago MS in Applied Data Science RAG System Chatbot
 
 ## Chatbot Link
-https://uchicago-ads-chatbot-team-1.streamlit.app/
+[University of Chicago Master of Science Applied Data Science Program Chatbot](https://uchicago-ads-chatbot-team-1.streamlit.app/)
 
 ## Project Overview
 
