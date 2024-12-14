@@ -33,7 +33,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for the Ma
 
 ## Performance Highlights
 
-- NDCG@10 scores improved from 0.456 to 0.615 after fine-tuning
+- NDCG@10 scores improved from 0.516 to 0.615 after fine-tuning
 - Maintained high relevance scores (0.99) while reducing hallucination
 - Average response time under 1.5 seconds for most queries
 
