@@ -128,9 +128,6 @@ st.sidebar.info(
 # Add author names to the sidebar
 st.sidebar.title("Authors")
 st.sidebar.markdown("Yu-Chih (Wisdom) Chen")
-st.sidebar.markdown("Feier Xu")
-st.sidebar.markdown("Yanchen Dong")
-st.sidebar.markdown("Kitae Kim")
 
 # Add Reset Chat button to the sidebar
 if st.sidebar.button("Reset Chat"):
